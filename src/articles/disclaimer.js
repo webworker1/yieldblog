@@ -11,8 +11,7 @@ class Disclaimer extends React.Component {
                     This blog will contain factual, analytical, and judgmental errors, and should not be construed as investment advice.
                     Letter grades assigned in this blog should not be considered investment advice, as it solely
                     reflects the opinions of its author.  The author disclaims any loss, or failure to realize a gain, incurred.
-
-                    Lastly, the author may own securities he recommends and will disclose ownership.
+                    Lastly, the author may own securities he recommends.
                 </div>)
     }
 }
