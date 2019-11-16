@@ -8,7 +8,11 @@ class Header extends React.Component {
     }
 
     render() {
-        return (<div className="header-wrapper">
+        let width = "540px"
+        if (window.mobilecheck()) {
+            width = "480px"
+        }
+        return (<div style={{width: width}} className="header-wrapper">
                     <Link to="/">Main Feed</Link>
                     <a href="#charleston">Start Here</a>
                     <a href="#about">About</a>
