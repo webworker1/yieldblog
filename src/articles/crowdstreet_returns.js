@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import Image from '../tags/img';
 
 class CrowdstreetReturns extends React.Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class CrowdstreetReturns extends React.Component {
 
     render() {
         return (<div className="article-wrapper">
-                    <img style={{width: "450px"}} src="https://i.imgur.com/GBj4rP6.png"></img>
+                    <Image src="https://i.imgur.com/GBj4rP6.png" />
                     
                     <div> Wow, 25.5% XIRR! Wait a minute... First of all, it's 25.5% for <b>realized</b> returns. </div>
                     <div> How many deals have been realized? 17. </div>

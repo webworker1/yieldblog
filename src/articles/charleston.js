@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from '../tags/img';
+
 
 class Charleston extends React.Component {
     constructor(props) {
@@ -23,30 +25,30 @@ class Charleston extends React.Component {
                     <br />
                     2. Charging $393 per night is completely, utterly batshit insane. As you can see below, typical high-end rooms in Charleston's French Quarter, <i> even during winter vacation </i> run only $270-$300/night, with the highest-end boutique hotel, the Spectator, charging around $350/night.
                     Let's assume they can somehow get $300/night, even in the off-season, despite evidence to the contrary:
-                    <img style={{width: "540px"}} src="https://i.imgur.com/bk17F1m.png"></img>
+                    <Image src="https://i.imgur.com/bk17F1m.png" />
                     3. 82% final run-rate occupancy is mildly egregious:  this assumes basically 100% bookings Thursday - Sundays, and 60% bookings Monday-Wednesday.  Across Charleston, room occupancy rates are only around 72-75%. <br />
                     This brings us to a total return over 5 years of around 129%, which includes a cash yield of 8.5%.  <b>Wait: why are our modeled returns higher than the ones advertised?  Something doesn't smell right. </b>
-                    <img style={{width: "540px"}} src="https://i.imgur.com/EJ6TKV3.png"></img>
+                    <Image src="https://i.imgur.com/EJ6TKV3.png" />
                     <br/> <br/> <br/>
                     Oh wait, oh no, this deal is terrible:
                     <hr/>
-                    <img style={{width: "540px"}} src="https://i.imgur.com/7yPhuc4.png"></img>
+                    <Image src="https://i.imgur.com/7yPhuc4.png" />
                     <hr/>
                     <br/>
                     <b> This is the fine print version of highway robbery </b> <br/>
                     What happens when there aren't enough investors?  The existing Hotel Investors are still on the hook for all those fees!
                     Imagine if only one 80-year old retiree put her $300,000 savings in this project. By the end of the first year, all of her equity would be eliminated by fees.
                     Below: modeling out investor returns, using only assumptions provided by the private equity Sponsor:
-                    <img style={{width: "540px"}} src="https://i.imgur.com/6wOsgeS.png"></img>
+                    <Image src="https://i.imgur.com/6wOsgeS.png" />
                     It's so bad that only in the case where we assume batshit high room rates, and full investor participation, do we get the 90%+ returns presented by the sponsor.  If only half
                         of all investors participate, returns get cut to 0%.
-                    <img style={{width: "540px"}} src="https://miro.medium.com/max/3840/1*J5QtUhvrdCieEaStKpS17g.jpeg"></img>
+                    <Image src="https://miro.medium.com/max/3840/1*J5QtUhvrdCieEaStKpS17g.jpeg" />
                     <b> Above, an actual image of 61 State Street investors, waiting for each other to jump. </b>
                     If we assume realistic room rates ($300/night, 75% occupancy), we expect between <b> -100% and -13% returns </b>
-                    <img style={{width: "540px"}} src="https://i.imgur.com/sANvHkY.png"></img>
+                    <Image src="https://i.imgur.com/sANvHkY.png" />
                     <br /> 
                     As for my message to SSI, the private equity sponsors:
-                    <img src="https://media.giphy.com/media/Ob7p7lDT99cd2/giphy.gif" />
+                    <Image src="https://media.giphy.com/media/Ob7p7lDT99cd2/giphy.gif" />
                     <br/>
                     Shame on you for ripping off mainstreet investors who are just trying to retire early.
                     <br /> 
@@ -56,7 +58,7 @@ class Charleston extends React.Component {
                     2. Always carefully calculate how sponsor fees will affect your returns, especially if it's on a fixed rather than pro-rata basis. <br />
                     3. Question sponsor assumptions: never take a single number for granted, as it can wildly change the investment outcome. <br />
                     <b> Final Grade: F- </b> <hr />
-                    <img style={{width: "540px"}} src="https://media.giphy.com/media/15BuyagtKucHm/giphy.gif"></img>
+                    <Image src="https://media.giphy.com/media/15BuyagtKucHm/giphy.gif" />
                     </div>
                 )
 

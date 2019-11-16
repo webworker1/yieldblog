@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../tags/img';
 
 class MonopolyEssay extends React.Component {
     constructor(props) {
@@ -7,7 +8,7 @@ class MonopolyEssay extends React.Component {
 
     render() {
         return (<div className="article-wrapper">
-                    <img style={{width: "450px"}} src="http://www.saic.edu/150/sites/default/files/Monopoly.jpg"></img>
+                    <Image src="http://www.saic.edu/150/sites/default/files/Monopoly.jpg" />
                     <br/>
                     Working on Wall Street is not that different from other highly-competitive jobs with nebulous deliverables.
                     In fashion, publishing, and media, thousands of people compete to differentiate themselves however they can,

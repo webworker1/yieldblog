@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import Image from '../tags/img';
 
 class Cushman extends React.Component {
     constructor(props) {
@@ -13,16 +14,16 @@ class Cushman extends React.Component {
                     as <i>"It's easier to make another $200k than to say no to your wife"</i> and <i>"If someone asks me out to breakfast and suggests 9 am, then he's a <i>chump</i>.  My workday starts at 6:30 am, let's meet at 6:30." </i> 
                      As a chump who gets out of bed no earlier than 9 am, I've frequently wondered about the industry and culture that could produce such a man. Well, wonder no more: Cushman & Wakefield is now public.
                     Their P&L, below, shows that despite starting the workday at 6:30am, Cushman & Wakefield generates effectively $0 of operating profit and manages to lose between $185m and $400m annually.
-                    <img style={{width: "540px"}} src="https://i.imgur.com/eFUrmcl.png"></img>
+                    <Image src="https://i.imgur.com/eFUrmcl.png" />
                     Yeesh.  That's not good.  Maybe Mr. Big Mean GAAP accounting is hiding their true profitability?
-                    <img style={{width: "540px"}} src="https://i.imgur.com/nHxrC7I.png"></img>
+                    <Image src="https://i.imgur.com/nHxrC7I.png" />
                     Nope!  Cushman & Wakefield manages to lose cash every year.  What really stood out to me was the ratio of market cap to employees. <b>How is a company with 51,000 employees only valued at $4bn? </b>
                     <br/> On its face this seems totally abysmal so of course I had to look around:
-                    <img style={{width: "540px"}} src="https://i.imgur.com/QOmbztZ.png"></img>
+                    <Image src="https://i.imgur.com/QOmbztZ.png" />
                     Truly amazing. The average Cushman & Wakefield employee creates only $80,000 of value for the firm, compared to an average WalMart employee at $155,000 or an average Google employee at $8.7m.
                     Turns out those delicious free lunches are the least Google can provide.
                     If I were more of a populist (or writing a Medium post, same difference), I might create a chart like the following one:
-                    <img style={{width: "540px"}} src="https://i.imgur.com/xQDHMyC.png"></img>
+                    <Image src="https://i.imgur.com/xQDHMyC.png" />
                     But I'm not.  And this sort of chart is actually bad analysis: no one pays their employees more than they have to, and both JLL and Cushman both can't be doing that.  What Cushman & Wakefield really teaches us
                     is that there are just some industries where creating revenue requires daily "rainmaking": waking up at 5 am to get into those 6:30 non-chump meetings,
                     and that these industries happen to have an employee base that can easily jump ship, revenue included, to a competing firm. <br/>
