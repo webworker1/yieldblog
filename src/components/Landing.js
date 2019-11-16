@@ -20,9 +20,9 @@ class Landing extends React.Component {
 
     componentDidMount() {
       if (window.mobilecheck()) {
-        this.setState({zoom: 0.75})
+        this.setState({zoom: 0.75, aboutMeImage: "https://i.imgur.com/pDjGP1Y.png"})
       } else {
-        this.setState({zoom: 1.5})
+        this.setState({zoom: 1.5, aboutMeImage: "https://media0.giphy.com/media/UkfHg7WRqniCY/200.webp?cid=790b7611d0a5c82eedfec837bdbf6a28c1fe055aee700cf0&rid=200.webp"})
       }
     }
 
@@ -80,7 +80,7 @@ class Landing extends React.Component {
                 </Card>
 
                 <Card title="About Me"
-                imageLink="https://media0.giphy.com/media/UkfHg7WRqniCY/200.webp?cid=790b7611d0a5c82eedfec837bdbf6a28c1fe055aee700cf0&rid=200.webp"
+                imageLink={this.state.aboutMeImage}
                 bodyText="Actual footage of my career in high finance"
                 cardId="about">
                     <About />

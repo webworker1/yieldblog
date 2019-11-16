@@ -10,7 +10,7 @@ class Header extends React.Component {
     render() {
         let width = "540px"
         if (window.mobilecheck()) {
-            width = "480px"
+            width = "500px"
         }
         return (<div style={{width: width}} className="header-wrapper">
                     <Link to="/">Main Feed</Link>
