@@ -19,7 +19,6 @@ class Landing extends React.Component {
     }
 
     componentDidMount() {
-      console.log('is this mobile? ', window.mobilecheck())
       if (window.mobilecheck()) {
         this.setState({zoom: 0.75})
       } else {
@@ -28,7 +27,6 @@ class Landing extends React.Component {
     }
 
     toggleCharleston = () => {
-        console.log('toggling charleston')
         this.setState({charleston: !this.state.charleston})
     }
 
