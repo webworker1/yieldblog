@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+.mobile-user {
+  background-color: yellow;
+}
+
+
 .header-wrapper {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -34,7 +39,14 @@ code {
   border-radius: 4px;
   background-color: white;
   padding: 10px 5px 20px 5px;
+}
 
+.card-wrapper-border-transparent {
+  border: 1px solid transparent;
+}
+
+.card-wrapper-border-transparent:hover {
+  border: 0px solid transparent;
 }
 
 .card-wrapper:hover {

@@ -18,19 +18,25 @@ class Card extends React.Component {
     render() {
         if (this.props.showMainStory || this.state.showMainStory) {
             return (
-                <div onClick={() => this.toggleShown()} className="card-wrapper">
-                    <span className="card-title">{this.props.title}</span>
-                    <hr className="card-divider" />
-                    {this.props.children}
+                <div className="card-wrapper-border-transparent">
+                    <div onClick={() => this.toggleShown()} className="card-wrapper">
+                        <span className="card-title">{this.props.title}</span>
+                        <hr className="card-divider" />
+                        {this.props.children}
+                    </div>
                 </div>
             )
         } else {
-        return (<div onClick={() => this.toggleShown()} className="card-wrapper">
-                    <span id={this.props.cardId} className="card-title">{this.props.title}</span>
-                    <hr className="card-divider" />
-                    <img style={{width: "450px"}} src={this.props.imageLink}></img>
-                    <div>{this.props.bodyText}</div>
-                </div>)
+        return (
+                <div className="card-wrapper-border-transparent">
+                    <div onClick={() => this.toggleShown()} className="card-wrapper">
+                        <span id={this.props.cardId} className="card-title">{this.props.title}</span>
+                        <hr className="card-divider" />
+                        <img style={{width: "450px"}} src={this.props.imageLink}></img>
+                        <div>{this.props.bodyText}</div>
+                    </div>
+                </div>
+            )
         }
     }
 }

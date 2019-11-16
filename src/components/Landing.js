@@ -18,8 +18,13 @@ class Landing extends React.Component {
         }
     }
 
-    componentDidUpdate() {
-        console.log('landingstate', this.state)
+    componentDidMount() {
+      console.log('is this mobile? ', window.mobilecheck())
+      if (window.mobilecheck()) {
+        this.setState({zoom: 0.75})
+      } else {
+        this.setState({zoom: 1.5})
+      }
     }
 
     toggleCharleston = () => {
@@ -28,7 +33,7 @@ class Landing extends React.Component {
     }
 
     render() {
-        return (<div className="landing-wrapper">
+        return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
 
