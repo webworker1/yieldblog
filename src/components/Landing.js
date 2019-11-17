@@ -9,6 +9,7 @@ import Transdigm from '../articles/transdigm';
 import Aramco_1 from '../articles/aramco_1';
 import About from '../articles/about';
 import Disclaimer from '../articles/disclaimer';
+import CourseraCoding from '../articles/coursera_coding';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -49,7 +50,12 @@ class Landing extends React.Component {
                 >
                     <Transdigm />
                 </Card>
-
+                <Card title="The best investment you can make today"
+                       bodyText="It's not stocks, bonds, or real estate"
+                       imageLink="https://ih1.redbubble.net/image.331352151.5256/flat,550x550,075,f.jpg"
+                       >
+                    <CourseraCoding />
+                </Card>
                 <Card title="What the Cushman & Wakefield IPO teaches us about how not to invest"
                       bodyText="How do 51,000 employees generate only $4bn of value?"
                       imageLink="https://i.imgur.com/KV8pMGH.png"
