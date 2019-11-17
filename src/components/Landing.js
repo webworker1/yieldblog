@@ -40,6 +40,7 @@ class Landing extends React.Component {
                       bodyText="The Perilous Kingdom of Saud opens its books"
                       imageLink="https://www.offshoreenergytoday.com/wp-content/uploads/2019/11/manifa-oil-field-source-saudi-aramco.jpg"
                       cardId="aramco"
+                      showMainStory={true}
                 >
                     <Aramco_1 />
                 </Card>
@@ -53,6 +54,7 @@ class Landing extends React.Component {
                 <Card title="The best investment you can make today"
                        bodyText="It's not stocks, bonds, or real estate"
                        imageLink="https://ih1.redbubble.net/image.331352151.5256/flat,550x550,075,f.jpg"
+                       showMainStory={true}
                        >
                     <CourseraCoding />
                 </Card>
@@ -60,6 +62,7 @@ class Landing extends React.Component {
                       bodyText="How do 51,000 employees generate only $4bn of value?"
                       imageLink="https://i.imgur.com/KV8pMGH.png"
                       cardId="cushman"
+                      showMainStory={true}
                 >
                     <Cushman />
                 </Card>
@@ -67,6 +70,7 @@ class Landing extends React.Component {
                       bodyText="The #1 advantage you have over fancy Wall Street analysts"
                       imageLink="http://ballstonapush.pbworks.com/f/1326468984/Standard_oil_octopus_loc_color.jpg"
                       cardId="monopoly"
+                      showMainStory={true}
                 >
                     <MonopolyEssay />
                 </Card>
@@ -75,6 +79,7 @@ class Landing extends React.Component {
                       imageLink="https://i.imgur.com/mj515FH.png"
                       showMainStory={this.state.charleston}
                       cardId="charleston"
+                      showMainStory={true}
                 >
                     <Charleston />
                 </Card>
