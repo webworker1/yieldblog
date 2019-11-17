@@ -38,6 +38,8 @@ class Cushman extends React.Component {
                     2. Avoid industries that require "revenue rainmakers": effort spent making enough revenue to cover payroll forces companies into a situation where they need to "overpay" their biggest rainmakers, thereby creating the "overpaid asshole" phenomenon.<br />
                     3. There's a reason why there aren't any publicly traded law practices and why medical practices frequently sell for only 3x earnings: it's very hard to exploit a rainmaker.<br />
                     4. As with the case of Google's incredibly high market-cap per employee: there truly is no such thing as a free lunch.<br />
+                    5. I mean, the Cushman guys are still, in aggregate, overpaid assholes:  why would you ever own a stock that's generating $0 of profit that <i> isn't</i> creating software-as-a-service?  The biggest risk I see to a short is acquisition risk: private equity guys acquire Cushman because they have a gameplan on how to generate the same revenue with 10,000 fewer employees.
+                    <hr /><b> Final Grade: C- </b> (Possible short candidate, proceed at your own peril)
                 </div>)
     }
 }

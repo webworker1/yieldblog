@@ -27,6 +27,8 @@ class Transdigm extends React.Component {
                     <Image src="https://i.imgur.com/jjbjPsn.png" />
                     <b> And allows Transdigm to lever up and take more balance sheet risk </b>
                     <Image src="https://i.imgur.com/LbN22UG.png" />
+                    Think about it this way:  even if bureaucrats are pissed, are they really going to work super hard and compare all those super complicated widgets, and try to find equivalent super-complicated widgets?  The worst-case scenario for Transdigm is a significant cut to some of the prices of some of the products, especially as it continues to grow its portfolio of available products through acquisition.  The win-win for everybody is for Congresspeople to embarass Transdigm, get a small refund, and declare victory, while Transdigm continues to rip off the US government.
+                    Why not own your special little piece of that ripoff?<br/>That's why I think Transdigm bonds, yielding ~6%, are substantially better deal than Transdigm shares (yielding ~2.5% at a 40x P/E), and the shares will also be first-impaired in the event of a downturn.
                     I'm not saying you should buy Transdigm bonds, <u> because this definitely isn't financial advice and you are on your own and I bear no responsibility for your losses</u>, but I personally own a shitload of Transdigm bonds, specifically TRANSDIGM INC NOTE CALL MAKE WHOLE 6.50000% 05/15/2025 (893647AZ0).  As in, larger than the downpayment on my home.  I might not in the future, but as of 11/10/2019, I am basically having Transdigm's baby.
                     <hr />
                 </div>)
