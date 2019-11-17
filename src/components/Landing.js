@@ -54,7 +54,6 @@ class Landing extends React.Component {
                 <Card title="The best investment you can make today"
                        bodyText="It's not stocks, bonds, or real estate"
                        imageLink="https://ih1.redbubble.net/image.331352151.5256/flat,550x550,075,f.jpg"
-                       showMainStory={true}
                        >
                     <CourseraCoding />
                 </Card>
