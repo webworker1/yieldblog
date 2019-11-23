@@ -17,7 +17,7 @@ class Aramco_1 extends React.Component {
                     <hr />
                     <b> Fact #1: The government of Saudi Arabia owns 100% of Saudi Aramco </b>
                     <Image src="https://i.imgur.com/1IrdMFJ.png" />
-                    Honestly, I expected a laundry list cap table of 15,000 Saudi Prince fuccbois each owning a small percentage. Aramco seems to have taken extra pain to demonstrate that its shareholder list was clean, consolidated, and fuccboi-free, explicitly stating that the Public owns "--" and the Company Treasury owns "--".
+                    Honestly, I expected an ownership structure of 15,000 Saudi Prince fuccbois each owning a small percentage. Aramco seems to have taken extra pain to demonstrate that its shareholder list was clean, consolidated, and fuccboi-free, explicitly stating that the Public owns "--" and the Company Treasury owns "--".
                     <hr />
                     <b> Fact #2: The government is issuing itself a dividend </b> <br/>
                     <i> "On 1 November 2019G, the Company declared an ordinary dividend of $13.4 billion with respect to the fiscal
@@ -31,15 +31,16 @@ class Aramco_1 extends React.Component {
                     <hr />
                     <b> Fact #3: The IPO is slated to represent <a target="_blank" href="https://www.marketwatch.com/story/saudi-aramco-unveils-ipo-prospectus-will-sell-up-to-05-of-shares-to-individual-investors-2019-11-10"> only 0.5% of the total shares</a>, or about $7.5bn </b> 
                     <hr />
-                    So the government which owns Saudi Aramco outright, is issuing itself $20bn+ in dividends while looking to raise $8-$20bn.
+                    Generally speaking, companies IPO because they need to <u>raise</u> more money.  Being public gives companies access to a much wider universe of investors.  Companies also generally issue dividends because they <u>don't</u> need money and would rather return money to shareholders who can better invest it in other opportunities.  It is very rare for a company to do both in quick succession, as it strongly suggests there is no intent for reinvestment in the future.  So, when Aram issues itself $20bn+ in dividends while looking to raise $8-$20bn, it might as well be holding up a sign that says: "we are planning to suck every riyal out of this company".
                     <Image src="https://media.giphy.com/media/4NnSe87mg3h25JYIDh/giphy.gif" />
-                    This doesn't quite make sense: Aramco makes $9 billion USD every month: why go through the scrutiny of public filing for raising only $8bn?
+                    The entire IPO, from a shareholder perspective, doesn't quite make sense: Aramco makes $9 billion USD every month: why go through the scrutiny of public filing for raising only $8bn?
                     <b> It seems like something didn't go as planned: </b> Aramco IPO represents a "pre-broken" IPO that the Saudis are trying to salvage:  by restricting the offering to a tiny 0.5% sliver of total shares, Aramco ensures that the shares will be owned by
-                    only shareholders that value the company at the higher end of the range. Things have gotten so bad that Aramco is now offering an <a href="https://www.ft.com/content/d6ffab68-016e-11ea-be59-e49b2a136b8d" target="_blank">ownership bonus</a>: one share for every ten shares held for longer than six months. <br/> <img src="https://i.imgur.com/BdgYM2p.jpg" style={{width: "540px"}} />
+                    only shareholders that value the company at the higher end of the range.
                     <br/> There is a natural spectrum of valuations for Saudi Aramco, from about $2 trillion USD to as low as perhaps $1 trillion USD.  The top 0.5% of bullish investors
                     might value Aramco at $2 trillion, while the next 1% might value Aramco at $1.9 trillion, etc. etc. <br/>
                     If Aramco floats only 0.5% of their shares, those shares will be traded and held among a group of investors that by definition will value Aramco more highly than the next 0.5% of investors who would otherwise own Aramco.
                     Aramco's tiny float strongly suggests they've chosen to IPO in the most nominal, face-saving way possible:  sell a tiny sliver of themselves to their biggest fans.
+                     <br/> <img src="https://i.imgur.com/BdgYM2p.jpg" style={{width: "540px"}} /> Things have gotten so bad that Aramco is now offering an <a href="https://www.ft.com/content/d6ffab68-016e-11ea-be59-e49b2a136b8d" target="_blank">ownership bonus</a>: one share for every ten shares held for longer than six months. <br/>
                     <br/>
                     <hr />
                     <b> Fact #4: Saudi Government and by extension Aramco owns all Saudi hydrocarbon rights </b> <br/>
