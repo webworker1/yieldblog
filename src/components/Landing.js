@@ -10,6 +10,7 @@ import Aramco_1 from '../articles/aramco_1';
 import About from '../articles/about';
 import Disclaimer from '../articles/disclaimer';
 import CourseraCoding from '../articles/coursera_coding';
+import ChinaRealEstate from '../articles/china_real_estate';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -35,7 +36,15 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
-
+                <Card title="China Questions, Part I: Real Estate"
+                      bodyText="Also: seeing the Laffer Curve in Dallas Real Estate taxes"
+                      imageLink="http://www.beijingrealestates.com/Chevalier1.jpg"
+                      cardId="china_realestate_1"
+                      showMainStory={true}
+                >
+                    <ChinaRealEstate />
+                </Card>
+                
                 <Card title="Saudi Aramco: Vanity IPO of the 100-Year Kingdom"
                       bodyText="The Perilous Kingdom of Saud opens its books"
                       imageLink="https://www.offshoreenergytoday.com/wp-content/uploads/2019/11/manifa-oil-field-source-saudi-aramco.jpg"
@@ -65,14 +74,6 @@ class Landing extends React.Component {
                 >
                     <Cushman />
                 </Card>
-                <Card title="Why the market undervalues monopolies and oligopolies"
-                      bodyText="The #1 advantage you have over fancy Wall Street analysts"
-                      imageLink="http://ballstonapush.pbworks.com/f/1326468984/Standard_oil_octopus_loc_color.jpg"
-                      cardId="monopoly"
-                      showMainStory={false}
-                >
-                    <MonopolyEssay />
-                </Card>
                 <Card title="The Great Highway Robbery of Charleston, SC"
                       bodyText="Haven't you ever wondered: do those hotel guys just make a killing?"
                       imageLink="https://i.imgur.com/mj515FH.png"
@@ -81,6 +82,14 @@ class Landing extends React.Component {
                       showMainStory={false}
                 >
                     <Charleston />
+                </Card>
+                <Card title="Why the market undervalues monopolies and oligopolies"
+                      bodyText="The #1 advantage you have over fancy Wall Street analysts"
+                      imageLink="http://ballstonapush.pbworks.com/f/1326468984/Standard_oil_octopus_loc_color.jpg"
+                      cardId="monopoly"
+                      showMainStory={false}
+                >
+                    <MonopolyEssay />
                 </Card>
                 <Card title="Crowdfunding site mistakenly advertises not-so stellar returns"
                 bodyText="Always read the fine print"

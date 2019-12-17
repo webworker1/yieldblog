@@ -5,7 +5,6 @@ const QuoteStub = ({quotedText, quotedTitle}) => {
         <div>
         <hr/>
         <i class="fas fa-quote-left fa-2x fa-pull-left"></i>
-
             <b>{quotedTitle}</b><br/>
             <i>
                 {quotedText}

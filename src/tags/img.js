@@ -1,13 +1,13 @@
 import React from 'react';
 
-const imgLink = ({src}) => {
+const imgLink = ({src, href, widthOverride}) => {
     let width = "540px"
     if (window.mobilecheck()) {
         width = "480px"
     }
     return (
         <div>
-            <img style={{width: width}} src={src} /> <br/>
+            <img style={{width: widthOverride || width }} src={src || href} /> <br/>
         </div>)
 }
 
