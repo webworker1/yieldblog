@@ -40,7 +40,7 @@ class Landing extends React.Component {
                       bodyText="Also: seeing the Laffer Curve in Dallas Real Estate taxes"
                       imageLink="http://www.beijingrealestates.com/Chevalier1.jpg"
                       cardId="china_realestate_1"
-                      showMainStory={true}
+                      showMainStory={false}
                 >
                     <ChinaRealEstate />
                 </Card>
