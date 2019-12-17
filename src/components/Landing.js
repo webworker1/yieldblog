@@ -36,7 +36,7 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
-                <Card title="China Questions, Part I: Real Estate"
+                <Card title="China Questions, Part I: How Overvalued is the Chinese Real Estate Market?"
                       bodyText="Also: seeing the Laffer Curve in Dallas Real Estate taxes"
                       imageLink="http://www.beijingrealestates.com/Chevalier1.jpg"
                       cardId="china_realestate_1"
