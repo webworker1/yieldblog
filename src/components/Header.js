@@ -15,6 +15,7 @@ class Header extends React.Component {
         return (<div style={{width: width}} className="header-wrapper">
                     <Link to="/">Main Feed</Link>
                     <a href="#charleston">Start Here</a>
+                    <a href="#subscription">Subscribe</a>
                     <a href="#about">About</a>
                     <a href="#disclaimer">Disclaimer</a>
                 </div>)

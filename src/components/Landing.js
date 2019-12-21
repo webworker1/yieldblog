@@ -11,6 +11,7 @@ import About from '../articles/about';
 import Disclaimer from '../articles/disclaimer';
 import CourseraCoding from '../articles/coursera_coding';
 import ChinaRealEstate from '../articles/china_real_estate';
+import Subscription from '../articles/subscription';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -104,6 +105,14 @@ class Landing extends React.Component {
                 cardId="about">
                     <About />
                 </Card>
+
+                <Card title="Subscription"
+                    bodyText="Join the community"
+                    showMainStory={true}
+                    cardId="about">
+                    <Subscription />
+                </Card>
+
 
                 <Card title="Disclaimer"
                 imageLink="https://cdn11.bigcommerce.com/s-10c6f/images/stencil/1280x1280/products/4429/9556/WS33057-10__58291.1545866110.png?c=2&imbypass=on"
