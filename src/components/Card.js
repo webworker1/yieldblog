@@ -18,7 +18,7 @@ class Card extends React.Component {
     render() {
         if (this.props.showMainStory || this.state.showMainStory) {
             return (
-                <div className="card-wrapper-border-transparent">
+                <div id={this.props.cardId} className="card-wrapper-border-transparent">
                     <div onClick={() => this.toggleShown()} className="card-wrapper">
                         <span className="card-title">{this.props.title}</span>
                         <hr className="card-divider" />

@@ -12,7 +12,6 @@ class CrowdstreetReturns extends React.Component {
     render() {
         return (<div className="article-wrapper">
                     <Image src="https://i.imgur.com/GBj4rP6.png" />
-                    
                     <div> Wow, 25.5% XIRR! Wait a minute... First of all, it's 25.5% for <b>realized</b> returns. </div>
                     <div> How many deals have been realized? 17. </div>
                     <div> How many deals have there been total?  361. <br /> Somehow, Crowdstreet thought that advertising that 4.7% of their deals have been realized would be a good idea.
