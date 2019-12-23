@@ -11,6 +11,7 @@ import About from '../articles/about';
 import Disclaimer from '../articles/disclaimer';
 import CourseraCoding from '../articles/coursera_coding';
 import ChinaRealEstate from '../articles/china_real_estate';
+import StarMetals from '../articles/star_metals';
 import Subscription from '../articles/subscription';
 
 class Landing extends React.Component {
@@ -37,6 +38,15 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
+                <Card title="Ripped off in Atlanta: Star Metals Crowdstreet Deal"
+                      bodyText="If you invest in this, you are literally paying someone to lend them money"
+                      imageLink="https://prod-thumbnails.investorportal.pictures/custom/1170/400/property-images/Copy_of_ALLEN_MORRIS-ATLANTA_STAR_METALS-04-OFFICE_BLDNG-C6-003-1576278296723-1576278392934.png"
+                      cardId="star_metals"
+                      showMainStory={false}
+                >
+                    <StarMetals />
+                </Card>
+
                 <Card title="China Questions, Part I: How Overvalued is the Chinese Real Estate Market?"
                       bodyText="Also: seeing the Laffer Curve in Dallas Real Estate taxes"
                       imageLink="http://www.beijingrealestates.com/Chevalier1.jpg"
