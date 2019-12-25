@@ -7,7 +7,7 @@ class PageWrapper extends React.Component {
     }
 
     render() {
-        let zoom = 1.5;
+        let zoom = 1;
         if (window.mobilecheck()) {
             zoom = 0.75
         }
