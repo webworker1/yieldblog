@@ -7,11 +7,15 @@ class PageWrapper extends React.Component {
     }
 
     render() {
+        let zoom = 1.5;
+        if (window.mobilecheck()) {
+            zoom = 0.75
+        }
         return (<div className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
                 <div className="card-wrapper-border-transparent">
-                    <div className="card-wrapper">
+                    <div style={{"zoom": zoom}} className="card-wrapper">
                         <span className="card-title">{this.props.title}</span>
                         <hr className="card-divider" />
                         {this.props.children}                        
