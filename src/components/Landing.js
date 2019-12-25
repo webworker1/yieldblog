@@ -43,6 +43,7 @@ class Landing extends React.Component {
                       imageLink="https://prod-thumbnails.investorportal.pictures/custom/1170/400/property-images/Copy_of_ALLEN_MORRIS-ATLANTA_STAR_METALS-04-OFFICE_BLDNG-C6-003-1576278296723-1576278392934.png"
                       cardId="star_metals"
                       showMainStory={false}
+                      realLink={true}
                 >
                     <StarMetals />
                 </Card>
@@ -50,17 +51,18 @@ class Landing extends React.Component {
                 <Card title="China Questions, Part I: How Overvalued is the Chinese Real Estate Market?"
                       bodyText="Also: seeing the Laffer Curve in Dallas Real Estate taxes"
                       imageLink="http://www.beijingrealestates.com/Chevalier1.jpg"
-                      cardId="china_realestate_1"
+                      cardId="china_real_estate"
                       showMainStory={false}
+                      realLink={true}
                 >
                     <ChinaRealEstate />
                 </Card>
-                
                 <Card title="Saudi Aramco: Vanity IPO of the 100-Year Kingdom"
                       bodyText="The Perilous Kingdom of Saud opens its books"
                       imageLink="https://www.offshoreenergytoday.com/wp-content/uploads/2019/11/manifa-oil-field-source-saudi-aramco.jpg"
                       cardId="aramco"
                       showMainStory={false}
+                      realLink={true}
                 >
                     <Aramco_1 />
                 </Card>
@@ -68,6 +70,7 @@ class Landing extends React.Component {
                       bodyText="Proprietary sole-sourced widgets to the world's best customer"
                       imageLink="https://static.seekingalpha.com/uploads/2017/3/10/saupload_4H7V-lc_31NRzkxllwmK5ydHtvEt1Hf5bmjLB5gHs-f9NN3Z8MJxSyFTkweTR5Vb4A18c3wz10EQRDs-62B7uBkrmZC6Z235nzXBSjBVV2oJGpNWsfNOeUPo34oE0RMxrQk6wv_BvcVOKuUL3Q.png"
                       cardId="transdigm"
+                      realLink={true}
                 >
                     <Transdigm />
                 </Card>
@@ -82,6 +85,7 @@ class Landing extends React.Component {
                       imageLink="https://i.imgur.com/KV8pMGH.png"
                       cardId="cushman"
                       showMainStory={false}
+                      realLink={true}
                 >
                     <Cushman />
                 </Card>
@@ -90,6 +94,7 @@ class Landing extends React.Component {
                       imageLink="https://i.imgur.com/mj515FH.png"
                       showMainStory={this.state.charleston}
                       cardId="charleston"
+                      realLink={true}
                       showMainStory={false}
                 >
                     <Charleston />

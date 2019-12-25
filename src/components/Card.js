@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 
 class Card extends React.Component {
@@ -16,7 +16,11 @@ class Card extends React.Component {
     }
 
     render() {
-        if (this.props.showMainStory || this.state.showMainStory) {
+        console.log(this.props.cardId, this.state.showMainStory, this.props.realLink)
+        if (this.state.showMainStory && this.props.realLink) {
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+            return <Redirect to={`/${this.props.cardId}`} />
+        } else if (this.props.showMainStory || this.state.showMainStory) {
             return (
                 <div id={this.props.cardId} className="card-wrapper-border-transparent">
                     <div onClick={() => this.toggleShown()} className="card-wrapper">
