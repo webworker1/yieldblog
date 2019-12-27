@@ -83,11 +83,10 @@ code {
     width: 550px;
     overflow: auto;
     font-family: 'Lora', serif;
-
 }
 
 .article-wrapper {
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
   overflow-wrap: break-word;
 }

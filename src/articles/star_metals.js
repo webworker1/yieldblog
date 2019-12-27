@@ -41,7 +41,8 @@ class StarMetals extends React.Component {
                     <Image href="https://i.imgur.com/iSnuXjz.png" />
                     Sponsors, on the other hand, are still made whole, <u>primarily through fees collected from investors</u>. Sponsors will literally <u> earn nearly as much money from fees (~$600k/year) than the property generates in net operating income </u>.
                     <Image href="https://i.imgur.com/XJujHNq.png" />
-                    In summary, the "safe case" for this deal is truly awful:  I estimate that investors will see a -15% IRR, getting back about 40% of their investment in a "safe-case" scenario in 7 years, and gaining about 40% of their money in a very positive outcome.
+                    In summary, the "safe case" for this deal is truly awful:  I estimate that regular investors will see a *negative* 15% IRR, losing 60% of your investment in 7 years as the most realistic outcome, and seeing a 40% total return over 7 years in a very very positive upside case where never-before-seen prices per square foot in that part of town are achieved. <br/> <br/>
+                    If you found this article insightful, consider <Link href="http://localhost:3000/#subscription">joining</Link> to the Yield Blog community, where you can discuss new investment ideas and suggest new research topics for $5/month.
                 </div>)
     }
 }
