@@ -8,6 +8,7 @@ import Charleston from './articles/charleston';
 import StarMetals from './articles/star_metals';
 import Transdigm from './articles/transdigm';
 import Cushman from './articles/cushman';
+import LBrands from './articles/l_brands';
 import Landing from './components/Landing';
 import PageWrapper from './components/PageWapper';
 
@@ -61,6 +62,11 @@ function App() {
           <Route path="/cushman">
             <PageWrapper title="Cushman & Wakefield: How do 51,000 employees create so little value?">
               <Cushman />
+            </PageWrapper>
+          </Route>
+          <Route path="/l_brands">
+            <PageWrapper title="Where is the bottom to Victoria's Secret?">
+              <LBrands />
             </PageWrapper>
           </Route>
 
