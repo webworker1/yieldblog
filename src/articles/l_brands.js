@@ -27,8 +27,8 @@ class LBrands extends React.Component {
             I'd also argue that the competition is broader than we realize: various athleisure brands fulfill a similar body-positivity drive while mitigating any feelings of being <Link href="https://www.forbes.com/sites/pamdanziger/2018/11/25/thirdlove-tells-john-mehas-how-to-fix-victorias-secret-in-full-page-new-york-times-ad/#292449f72285">complicit</Link>.
             <br/><br/>I see only one way Limited Brands can pull itself out of this mess: Grow Bath & Body Works fast enough to offset Victoria's Secret losses.  While this might seem impossible, I estimate that by FY2021 Bath and Body Works could be larger than the VS brand.
             Limited Brands will of course cut non-performing VS stores, but the question is how fast?
-            <br/><br/>There's an inherent tension between bondholders and equity holders here:  Les Wexner owns 17% of the outstanding equity, his wife owns another 5%, and will issue dividends until it becomes fraudulent conveyance to continue to do so.  The fact that any dividends are being issued while the company holds >$5bn in debt yielding 6%+ subtly demonstrates either incompetent corporate finance or denial on the part of Les Wexner.
-            
+            <br/><br/>There's an inherent tension between bondholders and equity holders here:  Les Wexner owns 17% of the outstanding equity, his wife owns another 5%, and will issue dividends until it becomes <Link href="https://www.investopedia.com/terms/f/fraudulentconveyance.asp">fraudulent conveyance</Link> to continue to do so.  The fact that any dividends are being issued while a). the company needs to cut leases b). the company holds >$5bn in debt yielding 6%+ and c). sales are imploding demonstrates either incompetent corporate finance or denial on the part of Les Wexner.
+            If US creditor protection were stronger, bondholders might be able to fire off warning letters now asking Limited Brands leadership to start cutting leases, paying down debt, and halting dividend issuance.  
             
 
         </div>)
