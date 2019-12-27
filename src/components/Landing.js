@@ -74,12 +74,6 @@ class Landing extends React.Component {
                 >
                     <Transdigm />
                 </Card>
-                <Card title="The best investment you can make today"
-                       bodyText="It's not stocks, bonds, or real estate"
-                       imageLink="https://ih1.redbubble.net/image.331352151.5256/flat,550x550,075,f.jpg"
-                       >
-                    <CourseraCoding />
-                </Card>
                 <Card title="What the Cushman & Wakefield IPO teaches us about how not to invest"
                       bodyText="How do 51,000 employees generate only $4bn of value?"
                       imageLink="https://i.imgur.com/KV8pMGH.png"
