@@ -28,20 +28,30 @@ class StarMetals extends React.Component {
                     The stacking plan, below, helps inform our model. <br/> <Image href="https://crowdstreet-prod.s3.amazonaws.com/media/property-images/stacking-1576275686227.png" />
                     Green text means the floor has already been fully leased, red text means the floor has yet to be leased. Below is the "Sponsor Case", which assumes $50/sq ft, which is obviously unrealistic, but shows how we get to the batshit-crazy 15% IRRs that are being advertised. 
                     <Image href="https://i.imgur.com/aRQWrpt.png" />
-                    <Image href="https://i.imgur.com/2k2Yghv.png" />
-                    <Image href="https://i.imgur.com/U3xTAlI.png" />
+                    <Image href="https://i.imgur.com/oOok2F4.png" />
+                    <Image href="https://i.imgur.com/mrNFRrB.png" />
                     Interest expense eats more than 50% of project's operating income, leaving just $5m of operating income from $11.8m pre-interest operating income. This wouldn't be such a bad thing, but let's see what happens when price per square foot gets cut even just a little bit, to a still-aggressive "Upside" case of $42/sq ft:
-                    <Image href="https://i.imgur.com/CH6HwV0.png" />
-                    Uh oh -- net operating income has fallen to $3.4m from $5m.
-                    <Image href="https://i.imgur.com/9KQJHOG.png" />
-                    On a post-fee basis, investor returns are now only 40% over 7 years, equating to roughly 5% annualized. What's worse, the Sponsor's returns are still quite high: while you have a 1.4x equity multiple over 7 years, the Sponsor, from fees, is still earning a 2.4x equity multiple.  Unadjusted for the investor-to-sponsor wealth transfer, you both would've earned a 1.7x equity multiple. <br/>
+                    <Image href="https://i.imgur.com/9LPFUbt.png" />
+                    Uh oh -- net operating income has fallen to $4.3m from $5.5m.
+                    <Image href="https://i.imgur.com/bLP0z14.png" />
+                    On a post-fee basis, investor returns are good roughly 10% annualized. However, the Sponsor's returns are still quite high: while you have a 1.77x equity multiple over 7 years, the Sponsor, from fees, is still earning a 2.8x equity multiple.  Unadjusted for the investor-to-sponsor wealth transfer, you both would've earned a 2.11x equity multiple. <br/>
                     It gets worse: what happens when we using <u> existing rental comps </u> for the actual Atlanta market?  I.e., rental rates we know the market will support that we can be confident in?  This is where things get really interesting:
+<<<<<<< Updated upstream
                     <Image href="https://i.imgur.com/7duKGFO.png" />
                     Holy crap, the "guaranteed case" scenario only has us doing <b>$900k</b> of operating income net of interest expense.
                     <Image href="https://i.imgur.com/iSnuXjz.png" />
                     Sponsors, on the other hand, are still made whole, <u>primarily through fees collected from investors</u>. Sponsors will literally <u> earn nearly as much money from fees (~$600k/year) than the property generates in net operating income </u>.
                     <Image href="https://i.imgur.com/XJujHNq.png" />
+                    In summary, the "safe case" for this deal is truly awful:  I estimate that regular investors will see a *negative* 15% IRR, losing 60% of your investment in 7 years as the most realistic outcome, and seeing a 40% total return over 7 years in a very very positive upside case where never-before-seen prices per square foot in that part of town are achieved. <br/> <br/>
+                    If you found this article insightful, consider <Link href="http://localhost:3000/#subscription">joining</Link> to the Yield Blog community, where you can discuss new investment ideas and suggest new research topics for $5/month.
+=======
+                    <Image href="https://i.imgur.com/GF0L3yU.png" />
+                    Holy crap, the "guaranteed case" scenario only has us doing <b>$1.6m</b> of operating income net of interest expense.
+                    <Image href="https://i.imgur.com/sjX2A3Z.png" />
+                    Sponsors, on the other hand, are still made whole, <u>primarily through fees collected from investors</u>. Sponsors will literally <u> earn nearly as much money from fees (~$450k/year) than the property generates in net operating income </u>.
+                    <Image href="https://i.imgur.com/5l1y6Yc.png" />
                     In summary, the "safe case" for this deal is truly awful:  I estimate that investors will see a -15% IRR, getting back about 40% of their investment in a "safe-case" scenario in 7 years, and gaining about 40% of their money in a very positive outcome.
+>>>>>>> Stashed changes
                 </div>)
     }
 }
