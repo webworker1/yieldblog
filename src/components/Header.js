@@ -16,8 +16,8 @@ class Header extends React.Component {
                     <Link to="/">Main Feed</Link>
                     <a href="/charleston">Start Here</a>
                     <a href="https://www.patreon.com/yieldblog">Patreon</a>
-                    <a href="/#about">About</a>
-                    <a href="/#disclaimer">Disclaimer</a>
+                    <a href="/about">About/Contact</a>
+                    <a href="/disclaimer">Disclaimer</a>
                 </div>)
     }
 }

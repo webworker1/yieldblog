@@ -39,8 +39,8 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
-                <Card title="Limited Brands: Baby's First Capital Structure Conflict"
-                    bodyText="Send lawyers, guns, and money"
+                <Card title="Limited Brands: Is There a Bottom to Victoria's Secret?"
+                    bodyText="How bad can it get?"
                     imageLink="https://media.bizj.us/view/img/10468677/victorias-secret-las-vegas*1200xx1800-1014-0-185.jpg"
                     cardId="l_brands"
                     showMainStory={false}

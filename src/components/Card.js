@@ -38,6 +38,7 @@ class Card extends React.Component {
                         <hr className="card-divider" />
                         <img style={{width: "450px"}} src={this.props.imageLink}></img>
                         <div>{this.props.bodyText}</div>
+                        {this.props.children}
                         <span class="fa-stack" style={{verticalAlign: "top", color: "#54a4ff", marginTop: "10px"}}>
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-arrow-down fa-stack-1x fa-inverse"></i>

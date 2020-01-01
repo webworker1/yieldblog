@@ -22,6 +22,7 @@ import {
 function App() {
   return (
     <div className="App">
+      <link href="https://fonts.googleapis.com/css?family=Hind|Open+Sans&display=swap" rel="stylesheet"/>
 
       <Router>
       <div>

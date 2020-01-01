@@ -20,12 +20,7 @@ class Subscription extends React.Component {
                 4). Ability to make suggestions on future ideas that I research:  I'm mostly writing this blog because I have to find new investments every couple months to allocate my household income, and your ideas to diligence are greatly appreciated.<br /> <br />
                 $5/month is a nominal figure that is designed mostly to retain serious community members.  It's also much cheaper than the fees charged by any bond or equity fund manager, and you get the fun of operating your own portfolio.  The vast majority of my "earnings" from this blog come from my own investment returns, and hopefully sharing my thoughts with you keeps me honest. <br/>
                 Required legal disclaimer: I am not a financial advisor and this is not financial advice. <br /> <br />
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick"/>
-                    <input type="hidden" name="hosted_button_id" value="5LACY4R5CHHPJ" />
-                    <input style={{"width": "140px"}} type="image" src="http://mileasset.com/wp-content/themes/Avada-Child-Theme/PayPal-Button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                </form>            
+                <Link href="">Patreon</Link>
             </div>
         );
   }

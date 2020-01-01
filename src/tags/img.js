@@ -17,7 +17,7 @@ class ImageLink extends React.Component {
     let { widthOverride, src, href } = this.props;
     return (
         <div onClick={() => this.newWindow()}>
-            <img style={{ "width": this.width || widthOverride }} src={src || href} /> <br />
+            <img style={{ "width": widthOverride || this.width }} src={src || href} /> <br />
         </div>)
     }
 }
