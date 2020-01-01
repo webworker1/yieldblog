@@ -22,7 +22,7 @@ class Card extends React.Component {
         } else if (this.props.showMainStory || this.state.showMainStory) {
             return (
                 <div id={this.props.cardId} className="card-wrapper-border-transparent">
-                    <div onClick={() => this.toggleShown()} className="card-wrapper">
+                    <div className="card-wrapper">
                         <header className="card-title">{this.props.title}</header>
                         <hr className="card-divider" />
                         {this.props.children}
@@ -32,7 +32,7 @@ class Card extends React.Component {
         } else {
         return (
                 <div className="card-wrapper-border-transparent">
-                    <div onClick={() => this.toggleShown()} className="card-wrapper">
+                    <div className="card-wrapper">
                         <header id={this.props.cardId} className="card-title">{this.props.title}</header>
                         <hr className="card-divider" />
                         <img style={{width: "450px"}} src={this.props.imageLink}></img>
