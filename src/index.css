@@ -4,7 +4,11 @@ body {
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+            box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -40,9 +44,11 @@ code {
 
 .landing-wrapper {
   margin-top: 45px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .card-wrapper {
@@ -51,6 +57,9 @@ code {
   border-radius: 10px;
   background-color: white;
   padding: 15px 10px 20px 10px;
+  overflow-x: hidden;
+  width: 100%;
+
 }
 
 .card-title {

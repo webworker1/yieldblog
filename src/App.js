@@ -2,6 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './App.css';
 import About from './articles/about';
+import Disclaimer from './articles/disclaimer';
 import Aramco from './articles/aramco_1';
 import ChinaRealEstate from './articles/china_real_estate';
 import Charleston from './articles/charleston';
@@ -38,6 +39,11 @@ function App() {
           <Route path="/aramco">
             <PageWrapper title="Saudi Aramco: Vanity IPO of the 100-Year Kingdom">
               <Aramco />
+            </PageWrapper>
+          </Route>
+          <Route path="/disclaimer">
+            <PageWrapper>
+              <Disclaimer />
             </PageWrapper>
           </Route>
           <Route path="/china_real_estate">

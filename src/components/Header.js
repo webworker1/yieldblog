@@ -13,10 +13,10 @@ class Header extends React.Component {
         }
         document.body.scrollTop = document.documentElement.scrollTop = 0;
         return (<div className="header-wrapper">
-                    <Link to="/">Main Feed</Link>
+                    <Link to="/">Main</Link>
                     <a href="/charleston">Start Here</a>
                     <a href="https://www.patreon.com/yieldblog">Patreon</a>
-                    <a href="/about">About/Contact</a>
+                    <a href="/about">Contact</a>
                     <a href="/disclaimer">Disclaimer</a>
                 </div>)
     }
