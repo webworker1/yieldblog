@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { AwesomeButton } from 'react-awesome-button'
 
 class Header extends React.Component {
     constructor(props) {
@@ -13,11 +14,10 @@ class Header extends React.Component {
         }
         document.body.scrollTop = document.documentElement.scrollTop = 0;
         return (<div className="header-wrapper">
-                    <Link to="/">Main</Link>
-                    <a href="/charleston">Start Here</a>
+                    <a href="/">Main</a>
+                    <a href="/subscribe">Subscribe</a>
                     <a href="https://www.patreon.com/yieldblog">Patreon</a>
-                    <a href="/about">Contact</a>
-                    <a href="/disclaimer">Disclaimer</a>
+                    <AwesomeButton onClick={() => this.renderOptions()} type="primary"><i class="fas fa-bars"></i></AwesomeButton>
                 </div>)
     }
 }
