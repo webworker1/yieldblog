@@ -54,7 +54,6 @@ class Landing extends React.Component {
                       bodyText="If you invest in this, you are literally paying someone to lend them money"
                       imageLink="https://prod-thumbnails.investorportal.pictures/custom/1170/400/property-images/Copy_of_ALLEN_MORRIS-ATLANTA_STAR_METALS-04-OFFICE_BLDNG-C6-003-1576278296723-1576278392934.png"
                       cardId="star_metals"
-                      showAll={this.props.showAll}
                       realLink={true}
                 >
                     <StarMetals />
@@ -73,7 +72,6 @@ class Landing extends React.Component {
                       bodyText="The Perilous Kingdom of Saud opens its books"
                       imageLink="https://www.offshoreenergytoday.com/wp-content/uploads/2019/11/manifa-oil-field-source-saudi-aramco.jpg"
                       cardId="aramco"
-                      showAll={this.props.showAll}
                       realLink={true}
                 >
                     <Aramco_1 />
@@ -83,7 +81,6 @@ class Landing extends React.Component {
                       imageLink="https://static.seekingalpha.com/uploads/2017/3/10/saupload_4H7V-lc_31NRzkxllwmK5ydHtvEt1Hf5bmjLB5gHs-f9NN3Z8MJxSyFTkweTR5Vb4A18c3wz10EQRDs-62B7uBkrmZC6Z235nzXBSjBVV2oJGpNWsfNOeUPo34oE0RMxrQk6wv_BvcVOKuUL3Q.png"
                       cardId="transdigm"
                       realLink={true}
-                      showAll={this.props.showAll}
                 >
                     <Transdigm />
                 </Card>
@@ -91,7 +88,6 @@ class Landing extends React.Component {
                       bodyText="How do 51,000 employees generate only $4bn of value?"
                       imageLink="https://i.imgur.com/KV8pMGH.png"
                       cardId="cushman"
-                      showAll={this.props.showAll}
                       realLink={true}
                 >
                     <Cushman />
@@ -102,7 +98,6 @@ class Landing extends React.Component {
                       showMainStory={this.state.charleston}
                       cardId="charleston"
                       realLink={true}
-                      showAll={this.props.showAll}
                       >
                     <Charleston />
                 </Card>
@@ -110,7 +105,6 @@ class Landing extends React.Component {
                       bodyText="The #1 advantage you have over fancy Wall Street analysts"
                       imageLink="http://ballstonapush.pbworks.com/f/1326468984/Standard_oil_octopus_loc_color.jpg"
                       cardId="monopoly"
-                      showAll={this.props.showAll}
                 >
                     <MonopolyEssay />
                 </Card>
