@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   color: black;
@@ -85,6 +86,14 @@ code {
   text-align: left;
   font-size: 16px;
   overflow-wrap: break-word;
+}
+
+.vertical-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 130px;
 }
 
 .aws-btn {

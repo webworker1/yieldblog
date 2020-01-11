@@ -12,6 +12,7 @@ import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
 import Landing from './components/Landing';
 import PageWrapper from './components/PageWapper';
+import 'lucid-ui/dist/lucid.css';
 
 import {
   BrowserRouter as Router,
@@ -29,7 +30,7 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/">
-            <Landing />
+            <Landing showAll={true} />
           </Route>
           <Route path="/about">
             <PageWrapper>
@@ -75,6 +76,9 @@ function App() {
             <PageWrapper title="Where is the bottom to Victoria's Secret?">
               <LBrands />
             </PageWrapper>
+          </Route>
+          <Route exact path="/articles">
+            <Landing showAll={false} />
           </Route>
 
         </Switch>

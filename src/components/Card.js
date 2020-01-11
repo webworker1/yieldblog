@@ -5,33 +5,12 @@ import { Link, Redirect } from "react-router-dom";
 class Card extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            showMainStory: this.props.showMainStory || false
-        }
-        this.toggleShown = this.toggleShown.bind(this);
-    }
-
-    toggleShown() {
-        this.setState({showMainStory: true});
     }
 
     render() {
-        if (this.state.showMainStory && this.props.realLink) {
-            document.body.scrollTop = document.documentElement.scrollTop = 0;
-            return <Redirect to={`/${this.props.cardId}`} />
-        } else if (this.props.showMainStory || this.state.showMainStory) {
+        if (this.props.showAll) { // Main story case
             return (
-                <div id={this.props.cardId} className="card-wrapper-border-transparent">
-                    <div className="card-wrapper">
-                        <header className="card-title">{this.props.title}</header>
-                        <hr className="card-divider" />
-                        {this.props.children}
-                    </div>
-                </div>
-            )
-        } else {
-        return (
-                <div className="card-wrapper-border-transparent">
+            <div className="card-wrapper-border-transparent">
                     <div className="card-wrapper">
                         <header id={this.props.cardId} className="card-title">{this.props.title}</header>
                         <hr className="card-divider" />
@@ -42,8 +21,21 @@ class Card extends React.Component {
                             <i className="fas fa-circle fa-stack-2x"></i>
                             <i className="fas fa-arrow-down fa-stack-1x fa-inverse"></i>
                         </span>
-
-
+                    </div>
+                </div>
+            )
+        } else { // Abbreviated case
+            return (
+                <div onClick={() =>  window.location = `/${this.props.cardId}`} className="card-wrapper-border-transparent">
+                    <div className="card-wrapper">
+                        <header id={this.props.cardId} className="card-title">{this.props.title}</header>
+                        <hr className="card-divider" />
+                        <img style={{width: "450px"}} src={this.props.imageLink}></img>
+                        <div>{this.props.bodyText}</div>
+                        <span className="fa-stack" style={{verticalAlign: "top", color: "#54a4ff", marginTop: "10px"}}>
+                            <i className="fas fa-circle fa-stack-2x"></i>
+                            <i className="fas fa-arrow-down fa-stack-1x fa-inverse"></i>
+                        </span>
                     </div>
                 </div>
             )
