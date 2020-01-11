@@ -1,12 +1,3 @@
-                    <Link href="https://www.merics.org/sites/default/files/2018-05/191017_merics_ChinaMonitor_42.pdf">In an incredible paper from Merics China Monitor</Link>, Victor Shih shows that China's economy as a a whole <u> does not earn its cost of capital: interest is actually growing faster than GDP</u>.  
-                    Let me repeat that in larger font: <b><h2> Interest grows faster than GDP in China </h2></b>Interest service on credit was 17trn RMB in 2017 while incremental nominal GDP was only 7trn RMB.  Taken as a whole, the Chinese economy could generously be described as failing to earn its cost of capital:
-                    <Image widthOverride="500px" src="https://i.imgur.com/ZFc1caD.png" />
-                    Close inspection of the table below shows that the entire balance of incremental interest growth seems to be getting rolled over: total credit grew by 52trn RMB, growing at 34% YoY despite only a 6% GDP growth rate.
-                    This effectively makes the Chinese economy a Ponzi scheme: State-owned enterprises owe loans that can never get repaid, and State-owned banks continually amend and extend non-performing loans (NPLs).
-                    Since there never comes a "judgment day" where a self-interested third-party demands repayment, the entire cycle of borrowing at high rates and investing at a low return continues indefinitely.
-                    In this way, saying that "credit growth exceeds GDP" is kind of irrelevant: the Chinese government is paying people with its own paper, and recording debts, which are also denominated in its own paper.
-                    <Image widthOverride="500px" src="https://i.imgur.com/Y96BtKj.png" />
-                    <br/>
                     <h2> Ulterior Motives to Belt and Road </h2>
 
                     Imagine you are a responsible, career-minded 30-something Chinese millenial.  You earn 180,000 reminbi per year, which is nothing to 
