@@ -14,8 +14,6 @@ class Header extends React.Component {
     }
 
     toggleDropdown() {
-        console.log('toggling')
-        console.log(this.state)
         this.setState({dropdown: !this.state.dropdown});
     }
 
@@ -37,7 +35,6 @@ class Header extends React.Component {
         document.body.scrollTop = document.documentElement.scrollTop = 0;
         return (<div className="header-wrapper">
                     <a href="/">Main</a>
-                    {/* <a href="/subscribe">Subscribe</a> */}
                     <a href="https://www.patreon.com/yieldblog">Patreon</a>
                     <div className='vertical-menu'>
                         <AwesomeButton onPress={() => this.toggleDropdown()} type="primary"><i class="fas fa-bars"></i></AwesomeButton>

@@ -9,7 +9,9 @@ import StarMetals from './articles/star_metals';
 import Transdigm from './articles/transdigm';
 import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
+import Monopoly from './articles/monopoly_essay';
 import Landing from './components/Landing';
+
 import PageWrapper from './components/PageWapper';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -30,6 +32,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Landing showAll={true} />
+          </Route>
+          <Route exact path="/articles">
+            <Landing showAll={false} />
           </Route>
           <Route path="/about">
             <PageWrapper>
@@ -76,10 +81,11 @@ function App() {
               <LBrands />
             </PageWrapper>
           </Route>
-          <Route exact path="/articles">
-            <Landing showAll={false} />
+          <Route path="/monopoly">
+            <PageWrapper title="Why the market always undervalues monopolies">
+              <Monopoly />
+            </PageWrapper>
           </Route>
-
         </Switch>
       </div>
     </Router>
