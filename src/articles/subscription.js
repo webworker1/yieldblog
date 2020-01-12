@@ -5,9 +5,6 @@ import QuoteStub from '../tags/quote_stub';
 import Image from '../tags/img';
 import Link from '../tags/link';
 
-
-import { PayPalButton } from "react-paypal-button-v2";
- 
 class Subscription extends React.Component {
     render() {
         return (

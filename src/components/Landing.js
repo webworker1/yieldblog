@@ -55,17 +55,15 @@ class Landing extends React.Component {
                     bodyText="How bad can it get?"
                     imageLink="https://media.bizj.us/view/img/10468677/victorias-secret-las-vegas*1200xx1800-1014-0-185.jpg"
                     cardId="l_brands"
-                    showMainStory={false}
+                    showAll={this.props.showAll}
                     realLink={true}
                 >
                     <LBrands />
                 </Card>
-                
                 <Card title="Ripped off in Atlanta: Star Metals Crowdstreet Deal"
                       bodyText="If you invest in this, you are literally paying someone to lend them money"
                       imageLink="https://prod-thumbnails.investorportal.pictures/custom/1170/400/property-images/Copy_of_ALLEN_MORRIS-ATLANTA_STAR_METALS-04-OFFICE_BLDNG-C6-003-1576278296723-1576278392934.png"
                       cardId="star_metals"
-                      showMainStory={false}
                       realLink={true}
                 >
                     <StarMetals />
@@ -75,7 +73,7 @@ class Landing extends React.Component {
                       bodyText="Also: seeing the Laffer Curve in Dallas Real Estate taxes"
                       imageLink="http://www.beijingrealestates.com/Chevalier1.jpg"
                       cardId="china_real_estate"
-                      showMainStory={false}
+                      showAll={this.props.showAll}
                       realLink={true}
                 >
                     <ChinaRealEstate />
@@ -84,7 +82,6 @@ class Landing extends React.Component {
                       bodyText="The Perilous Kingdom of Saud opens its books"
                       imageLink="https://www.offshoreenergytoday.com/wp-content/uploads/2019/11/manifa-oil-field-source-saudi-aramco.jpg"
                       cardId="aramco"
-                      showMainStory={false}
                       realLink={true}
                 >
                     <Aramco_1 />
@@ -101,7 +98,6 @@ class Landing extends React.Component {
                       bodyText="How do 51,000 employees generate only $4bn of value?"
                       imageLink="https://i.imgur.com/KV8pMGH.png"
                       cardId="cushman"
-                      showMainStory={false}
                       realLink={true}
                 >
                     <Cushman />
@@ -112,15 +108,13 @@ class Landing extends React.Component {
                       showMainStory={this.state.charleston}
                       cardId="charleston"
                       realLink={true}
-                      showMainStory={false}
-                >
+                      >
                     <Charleston />
                 </Card>
                 <Card title="Why the market undervalues monopolies and oligopolies"
                       bodyText="The #1 advantage you have over fancy Wall Street analysts"
                       imageLink="http://ballstonapush.pbworks.com/f/1326468984/Standard_oil_octopus_loc_color.jpg"
                       cardId="monopoly"
-                      showMainStory={false}
                 >
                     <MonopolyEssay />
                 </Card>
@@ -136,12 +130,6 @@ class Landing extends React.Component {
                 bodyText="Actual footage of my career in high finance"
                 cardId="about">
                     <About />
-                </Card>
-                <Card title="Support the Blog and join the Yield Blog Community"
-                    bodyText="Join the community"
-                    showMainStory={true}
-                    cardId="subscription">
-                    <Subscription />
                 </Card>
                 <Card title="Disclaimer"
                 imageLink="https://cdn11.bigcommerce.com/s-10c6f/images/stencil/1280x1280/products/4429/9556/WS33057-10__58291.1545866110.png?c=2&imbypass=on"

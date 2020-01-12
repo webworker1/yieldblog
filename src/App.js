@@ -1,7 +1,7 @@
 import React from 'react';
-import 'antd/dist/antd.css';
 import './App.css';
 import About from './articles/about';
+import Disclaimer from './articles/disclaimer';
 import Aramco from './articles/aramco_1';
 import ChinaRealEstate from './articles/china_real_estate';
 import Charleston from './articles/charleston';
@@ -9,8 +9,11 @@ import StarMetals from './articles/star_metals';
 import Transdigm from './articles/transdigm';
 import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
+import Monopoly from './articles/monopoly_essay';
 import Landing from './components/Landing';
+
 import PageWrapper from './components/PageWapper';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
@@ -28,7 +31,10 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/">
-            <Landing />
+            <Landing showAll={true} />
+          </Route>
+          <Route exact path="/articles">
+            <Landing showAll={false} />
           </Route>
           <Route path="/about">
             <PageWrapper>
@@ -38,6 +44,11 @@ function App() {
           <Route path="/aramco">
             <PageWrapper title="Saudi Aramco: Vanity IPO of the 100-Year Kingdom">
               <Aramco />
+            </PageWrapper>
+          </Route>
+          <Route path="/disclaimer">
+            <PageWrapper>
+              <Disclaimer />
             </PageWrapper>
           </Route>
           <Route path="/china_real_estate">
@@ -70,7 +81,11 @@ function App() {
               <LBrands />
             </PageWrapper>
           </Route>
-
+          <Route path="/monopoly">
+            <PageWrapper title="Why the market always undervalues monopolies">
+              <Monopoly />
+            </PageWrapper>
+          </Route>
         </Switch>
       </div>
     </Router>
