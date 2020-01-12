@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { AwesomeButton } from 'react-awesome-button'
-// import {VerticalListMenu} from 'lucid-ui'
-  
+import { Dropdown } from 'react-bootstrap'
+
 class Header extends React.Component {
     constructor(props) {
         super(props)
@@ -21,18 +21,11 @@ class Header extends React.Component {
 
     renderDropdown() {
         return (
-                <div />
-                    // <VerticalListMenu style={{width: '130px', backgroundColor: 'white'}} >
-                    //     <VerticalListMenu.Item>
-                    //         <a href="/about">About</a>
-                    //     </VerticalListMenu.Item>
-                    //     <VerticalListMenu.Item>
-                    //         <a href="/disclaimer">Disclaimer</a>
-                    //     </VerticalListMenu.Item>
-                    //     <VerticalListMenu.Item>
-                    //         <a href="/articles">Articles</a>
-                    //     </VerticalListMenu.Item>
-                    // </VerticalListMenu>
+                    <Dropdown style={{width: '130px', backgroundColor: 'white'}} >
+                        <Dropdown.Item href="/about"> About </Dropdown.Item>
+                        <Dropdown.Item href="/disclaimer"> Disclaimer </Dropdown.Item>
+                        <Dropdown.Item href="/articles"> Articles </Dropdown.Item>
+                    </Dropdown>
                 );
     }
 

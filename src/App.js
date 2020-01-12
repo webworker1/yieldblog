@@ -11,7 +11,7 @@ import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
 import Landing from './components/Landing';
 import PageWrapper from './components/PageWapper';
-// import 'lucid-ui/dist/lucid.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
