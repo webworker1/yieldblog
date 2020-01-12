@@ -60,6 +60,13 @@ class Landing extends React.Component {
                 >
                     <LBrands />
                 </Card>
+                <div id="778450467">
+                        {
+                            window._mNHandle.queue.push(function (){
+                                window._mNDetails.loadTag("778450467", "300x250", "778450467");
+                            })
+                        }
+                </div>
                 <Card title="Ripped off in Atlanta: Star Metals Crowdstreet Deal"
                       bodyText="If you invest in this, you are literally paying someone to lend them money"
                       imageLink="https://prod-thumbnails.investorportal.pictures/custom/1170/400/property-images/Copy_of_ALLEN_MORRIS-ATLANTA_STAR_METALS-04-OFFICE_BLDNG-C6-003-1576278296723-1576278392934.png"
