@@ -20,7 +20,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start sitemap",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
