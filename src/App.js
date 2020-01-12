@@ -11,7 +11,7 @@ import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
 import Monopoly from './articles/monopoly_essay';
 import Landing from './components/Landing';
-
+import FourOhFour from './articles/fourohfour';
 import PageWrapper from './components/PageWapper';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,6 +20,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+
 
 
 function App() {
@@ -33,6 +34,13 @@ function App() {
           <Route exact path="/">
             <Landing showAll={true} />
           </Route>
+          <Route>
+            <PageWrapper>
+              <FourOhFour />
+            </PageWrapper>
+            <Landing showAll={true} />
+          </Route>
+
           <Route exact path="/articles">
             <Landing showAll={false} />
           </Route>
