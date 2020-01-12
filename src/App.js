@@ -1,5 +1,4 @@
 import React from 'react';
-import 'antd/dist/antd.css';
 import './App.css';
 import About from './articles/about';
 import Disclaimer from './articles/disclaimer';
@@ -12,7 +11,7 @@ import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
 import Landing from './components/Landing';
 import PageWrapper from './components/PageWapper';
-import 'lucid-ui/dist/lucid.css';
+// import 'lucid-ui/dist/lucid.css';
 
 import {
   BrowserRouter as Router,
