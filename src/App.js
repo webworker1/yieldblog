@@ -34,13 +34,6 @@ function App() {
           <Route exact path="/">
             <Landing showAll={true} />
           </Route>
-          <Route>
-            <PageWrapper>
-              <FourOhFour />
-            </PageWrapper>
-            <Landing showAll={true} />
-          </Route>
-
           <Route exact path="/articles">
             <Landing showAll={false} />
           </Route>
@@ -98,6 +91,12 @@ function App() {
             <PageWrapper title="China Part II: The Impossible Trinity">
               <China_2 />
             </PageWrapper>
+          </Route>
+          <Route>
+            <PageWrapper>
+              <FourOhFour />
+            </PageWrapper>
+            <Landing showAll={true} />
           </Route>
 
         </Switch>
