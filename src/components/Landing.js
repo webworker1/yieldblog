@@ -41,15 +41,15 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
-                {/* <Card title="China Part II: Resolving the Impossible Trinity"
+                <Card title="China Part II: Resolving the Impossible Trinity"
                     bodyText="Sincere apologies to the NYTimes for stealing their image"
                     imageLink="https://static01.nyt.com/images/2008/12/21/weekinreview/ponzi-600x583.jpg"
                     cardId="china_2"
-                    showMainStory={false}
+                    showAll={true}
                     realLink={true}
                 >
                     <China_2 />
-                </Card> */}
+                </Card>
 
                 <Card title="Limited Brands: Is There a Bottom to Victoria's Secret?"
                     bodyText="How bad can it get?"

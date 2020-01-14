@@ -10,6 +10,7 @@ import Transdigm from './articles/transdigm';
 import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
 import Monopoly from './articles/monopoly_essay';
+import China_2 from './articles/china_2';
 import Landing from './components/Landing';
 import FourOhFour from './articles/fourohfour';
 import PageWrapper from './components/PageWapper';
@@ -29,7 +30,6 @@ function App() {
       <link href="https://fonts.googleapis.com/css?family=Hind|Open+Sans&display=swap" rel="stylesheet"/>
 
       <Router>
-      <div>
         <Switch>
           <Route exact path="/">
             <Landing showAll={true} />
@@ -94,8 +94,13 @@ function App() {
               <Monopoly />
             </PageWrapper>
           </Route>
+          <Route path="/china_2">
+            <PageWrapper title="China Part II: The Impossible Trinity">
+              <China_2 />
+            </PageWrapper>
+          </Route>
+
         </Switch>
-      </div>
     </Router>
 
     </div>
