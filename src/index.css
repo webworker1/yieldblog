@@ -99,6 +99,14 @@ code {
   width: 130px;
 }
 
+.paywall-wrapper {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
 .aws-btn {
   --button-default-height: 30px;
   --button-default-font-size: 10px;

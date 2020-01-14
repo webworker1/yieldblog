@@ -18,7 +18,7 @@ class PageWrapper extends React.Component {
                     <div style={{"zoom": zoom}} className="card-wrapper">
                         <span className="card-title">{this.props.title}</span>
                         <hr className="card-divider" />
-                        {this.props.children}                        
+                        {this.props.children}
                     </div>
                 </div>
             </div>

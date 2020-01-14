@@ -3,6 +3,7 @@ import React from 'react';
 import Image from '../tags/img';
 import Link from '../tags/link';
 import QuoteStub from '../tags/quote_stub';
+import Paywall from '../components/Paywall'
 
 class China_2 extends React.Component {
     constructor(props) {
@@ -27,27 +28,32 @@ class China_2 extends React.Component {
 
                     Culturally, its bureaucracy supports reporting incorrect figures:
 
-                    <QuoteStub quotedText={"It was 2013, and there was mounting disbelief outside China that bad loans in the country’s banks could account for only about 1% of their total assets, as was claimed by the official data. Given the pace of lending and the scale of dubious construction projects around the country, that number seemed preposterously low. Are we really expected to believe the numbers? I asked. “If China were to declare that nonperforming loans were in fact much higher than thought, does anyone really benefit?” he said"} />
+                    <QuoteStub quotedText={"It was 2013, and there was mounting disbelief outside China that bad loans in the country’s banks could account for only about 1% of their total assets, as was claimed by the official data. Given the pace of lending and the scale of dubious construction projects around the country, that number seemed preposterously low. Are we really expected to believe the numbers? I asked. “If China were to declare that nonperforming loans were in fact much higher than thought, does anyone really benefit?” he said."} />
                     <a target="_blank" href="https://www.amazon.com/gp/product/B073XCM3L1/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B073XCM3L1&linkCode=as2&tag=theyieldblog-20&linkId=7a12b3c8ef3d51bb92ce0c5a588f1b08">China's Great Wall of Debt: Shadow Banks, Ghost Cities, Massive Loans, and the End of the Chinese Miracle</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=theyieldblog-20&l=am2&o=1&a=B073XCM3L1" width="1" height="1" border="0" alt="" />
-
                     <br/>
 
-                    
+                    <Paywall text="Honestly, the rest of this article is pretty eye-opening and I'm very proud of it. You will at the very least get some dinner party ammunition, and more likely than not have your understanding of the situation the Chinese government is in totally changed. Subscribe today for almost-instant access.">
                     Of course, we have to compare this to a known economy:
                     <Image widthOverride="500px" src="https://i.imgur.com/FjFmvgp.gif" />
                     The US economy grows at roughly 2%, while total credit grew by roughly 5.3%.  So, for a reasonably well-functioning economy (please, Bernie bros, no hatemail), we have credit expansion that is about 2.5x the size of growth.  China, on the other hand, sees credit expansion roughly 6.5x the size of growth.
                     All of these numbers seem to align extremely well:  US debt/GDP is rougly 100%, while China's debt/gdp is roughly 250-350% depending on what you count.  <Link href="/china_real_estate">Chinese real estate</Link> is also roughly 2-3x overvalued, and credit expansion in China is roughly 2-3x faster than in the US.
-                    <br/><br/> But if the PRC is able to <Link href="https://www.scmp.com/economy/china-economy/article/3012312/chinas-capital-outflow-controls-have-gone-extreme-former">effectively control the economic lives of its citizens</Link>, what's the trigger to a crash?  If banks never demand repayment and unprofitable businesses are permitted to persist, what could trigger
+                    <br/><br/> Long gone are the days where the People's Republic of China uses a command-and-control economy.  Yet, through capital controls, China can effectively control the <Link href="https://www.scmp.com/economy/china-economy/article/3012312/chinas-capital-outflow-controls-have-gone-extreme-former">economic interface of its citizens</Link>:  as long as citizens remain in China and keep playing Chinese Economy The Game, everything seems normal.
+                    But as soon as they try to redeem their ChinaBucks for non-Chinabucks, there are problems:  first, there's a 50,000 RMB ($7,300 USD) cap on redemption.  Second, China has to deplete their foreign currency reserves every time a citizen makes a currency sale.  If a citizen wants to buy 50,000 RMB of USD, the government must actually go out and exchange RMB for USD, thereby increasing the total global supply of RMB and (slightly) devaluing the currency.
+                    <br/><br/>Without capital controls, if <u>just 100 million citizens withdrew $15,000 USD per year over two years</u> the foreign currency reserves would be completely depleted.  This is an almost trivial task:  the average household net worth in China is worth roughly $23,000 USD, so the richest 10% of China (at least 100m people) could easily afford this.
+                    <Image widthOverride="500px" href="https://tagn.files.wordpress.com/2010/04/simpsons_i-and-s_money.jpg" />
+
+                    <br/><br/> But if the PRC is able to control the economic interface of its citizens what's the trigger to a crash?  If banks never demand repayment and unprofitable businesses are permitted to persist, what could trigger
                     a recession?
-                    The one thing that the government may no longer be able to control:  its currency exchange rate.
-                    <br/><br/>A different, perhaps heterodox way of thinking about this is to imagine a country's currency as prize tickets, good for alleviating one unit of taxable liability, or perhaps for some government service. "You will pay us 30% of your salary in the currency that we issue. And we have guns."
-                    <br/><br/> In a friendlier and less coercive context, one could imagine Amazon setting up an alternative viable currency in Venezuela, and its citizens would be thrilled to work for Bezos and be paid in JeffBucks.<br/><br/>
+                    The one factor that the government may no longer be able to control:  its currency exchange rate.
+                    <br/><br/>Imagine a country's currency as vouchers, good for alleviating one unit of taxable liability, or perhaps for some government service. "You will pay us 30% of your salary in the currency that we issue. And we have guns."
+                    <br/><br/> In a friendlier and less coercive context, one could imagine Amazon setting up an alternative viable currency in Venezuela, and its citizens would grudgingly work for Bezos and be paid in JeffBucks.<br/><br/>
                     The inherent value of a dollar or a reminbi is not  "faith" or "mutual agreement", as bitcoin and gold bugs would have you believe, but the fact that it literally represents the alleviation of a taxable unit issued by a coercive entity with a <Link href="https://en.wikipedia.org/wiki/Monopoly_on_violence">monopoly on violence</Link>.
                     In this sense, we are all in fact part-time government employees:  behind every currency is a giant <Link href="https://en.wikipedia.org/wiki/Fold_(higher-order_function)">reducing function</Link> that represents the relative demand for a country's exports against its supply of currency.
 
                     The release valve to all this, of course is currency.
                     Below, China's foreign exchange reserves, in millions USD (i.e., China has roughly $3trn USD in foreign exchange reserves).
                     <iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=chinaforexcres&v=201912091124V20191105&d1=20100109&h=300&w=600' height='200' width='600'  frameborder='0' scrolling='no'></iframe>
+                    </Paywall>
         </div>)
     }
 }
