@@ -53,6 +53,24 @@ class China_2 extends React.Component {
                     The release valve to all this, of course is currency.
                     Below, China's foreign exchange reserves, in millions USD (i.e., China has roughly $3trn USD in foreign exchange reserves).
                     <iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=chinaforexcres&v=201912091124V20191105&d1=20100109&h=300&w=600' height='200' width='600'  frameborder='0' scrolling='no'></iframe>
+                    <br/><br/>
+                    There is an idea in economics known as the Impossible Trinity, which states that it is impossible to have all three of the following at the same time:
+                    <ul>
+                        <li>a fixed foreign exchange rate</li>
+                        <li>free capital movement (absence of capital controls)</li>
+                        <li>an independent monetary policy</li>
+                    </ul>
+                    <Image widthOverride="500px" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Impossible_trinity_diagram.svg/700px-Impossible_trinity_diagram.svg.png" />
+                    The explanation of why is as follows, from Wikipedia:
+                    <p>Assume that world interest rate is at 5%. If the home central bank tries to set domestic interest rate at a rate lower than 5%, for example at 2%, there will be a depreciation pressure on the home currency, because investors would want to sell their low yielding domestic currency and buy higher yielding foreign currency. If the central bank also wants to have free capital flows, the only way the central bank could prevent depreciation of the home currency is to sell its foreign currency reserves. Since foreign currency reserves of a central bank are limited, once the reserves are depleted, the domestic currency will depreciate.</p>
+                    <br/> The United States, of course, has chosen options 2 and 3: it allows for free capital movement, and an independent monetary policy (i.e., it can set its interest rate at wherever it chooses).  As such, investors might pursue better risk-return opportunities elsewhere and depreciating the USD.
+                    <br/> China on the other hand has chosen to pursue #1 and #3:  exchange rates are effectively fixed, their monetary policy remains independent, and as such, their citizens are cannot move significant money abroad, as every outside exchange will deplete China's forex reserves. While Chinese citizens remain limited in their international capital flight rights, foreign companies
+                    can still repatriate RMB profits (for now), and every RMB repatriated is another blow to the exchange rate.  If both households and firms are able to move another 10% of their money supply overseas, Chinese foreign exchange reserves would deplete and the RMB would no longer be "fixed", but enter "maxi-devaluation". 
+                    <br/><br/>
+                    Imagine the insanity of being a billionaire in China. They have all the funny-money they could ask for, yet can barely transfer enough funds abroad to afford a half-decent vacation. Buying a Parisian apartment or New York pied-a-terre would be seen as money-laundering, and likely lead to their imprisonment.  They look longingly northward to their Russian oligarch comrades with envy, and the only thing they think about, day and night, is "how the fuck do I get my money out of here?"
+                    In the meantime, they must content themselves with luxury triflings:  a Gucci bag here, a Bugatti there. Gucci and Bugatti can get their money out, after all.
+                    <br/><br/>
+                    My best estimate is that within 10 years, the RMB will be forced into a devaluation spiral, and the world will taste the tears of Chinese billionaires.
                     </Paywall>
         </div>)
     }
