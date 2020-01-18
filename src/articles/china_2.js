@@ -32,7 +32,7 @@ class China_2 extends React.Component {
                     <a target="_blank" href="https://www.amazon.com/gp/product/B073XCM3L1/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B073XCM3L1&linkCode=as2&tag=theyieldblog-20&linkId=7a12b3c8ef3d51bb92ce0c5a588f1b08">China's Great Wall of Debt: Shadow Banks, Ghost Cities, Massive Loans, and the End of the Chinese Miracle</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=theyieldblog-20&l=am2&o=1&a=B073XCM3L1" width="1" height="1" border="0" alt="" />
                     <br/>
 
-                    <Paywall text="Honestly, the rest of this article is pretty eye-opening and I'm very proud of it. You will at the very least get some dinner party ammunition, and more likely than not have your understanding of the situation the Chinese government is in totally changed. Subscribe today for almost-instant access.">
+                    <Paywall text="I'm very proud of the rest of this article and I hope you read it. You will at the very least get some dinner party ammunition, and I found the conclusions pretty eye-opening. Join our Patreon for instant access.">
                     Of course, we have to compare this to a known economy:
                     <Image widthOverride="500px" src="https://i.imgur.com/FjFmvgp.gif" />
                     The US economy grows at roughly 2%, while total credit grew by roughly 5.3%.  So, for a reasonably well-functioning economy (please, Bernie bros, no hatemail), we have credit expansion that is about 2.5x the size of growth.  China, on the other hand, sees credit expansion roughly 6.5x the size of growth.
