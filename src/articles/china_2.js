@@ -24,7 +24,7 @@ class China_2 extends React.Component {
                     Since there never comes a "judgment day" where a self-interested third-party demands repayment, the entire cycle of borrowing at high rates and investing at a low return continues indefinitely.  This inability of banks to recognize nonperforming loans is what most gives China its Brave New World quality: with muted market signals it's impossible to tell if you're building a bridge to nowhere.
                     The Chinese government is paying people with its own paper, and recording debts, which are also denominated in its own paper.
                     <Image widthOverride="500px" src="https://i.imgur.com/Y96BtKj.png" />
-                    Above, note now total credit has grown 33.8%, from 295% of Chinese GDP to 329% of GDP. 
+                    Above, total credit has grown 33.8%, from 295% of Chinese GDP to 329% of GDP. 
 
                     <QuoteStub quotedText="Driving around China, you can tell that something is not quite right. Many cities are ringed with empty apartment towers. Extravagant new government buildings have more rooms than officials to put in them. Chinese factories produce about half of the world’s steel and far more than the country could ever hope to use. Land has been reclaimed from the sea to create factories that have never been built." />
 
