@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap'
 import Link from '../tags/link';
+import Blur from '../tags/blur';
 
 
 const AUTHENTICATED = [
@@ -34,13 +35,20 @@ class Paywall extends React.Component {
     
     render() {
         if (AUTHENTICATED.includes(localStorage.getItem('yield_email'))) {
-            return this.props.children;
+        return (<div>
+                    {this.props.blurred}
+                    {this.props.children}
+                </div>);
         } else {
-            return (<div className='paywall-wrapper'>
-                    Support the blog, join The Yield Blog Slack, and read every article!<br/>
+            return (
+                <div>
+                    <Blur>
+                        {this.props.blurred}
+                    </Blur>
+                    <div className='paywall-wrapper'>
+                    Support the blog, get past this paywall, join The Yield Blog Slack, and read every article!<br/>
                     <Link href="https://www.patreon.com/yieldblog">Support us on Patreon for nearly instant access</Link>
                     <br/><br/>
-
                     {this.props.text}
                     <br/><br/>
                     <Form>
@@ -52,9 +60,7 @@ class Paywall extends React.Component {
                             Submit
                         </Button>
                     </Form>
-
-                {console.log(localStorage.getItem('yield_cred'))}
-            </div>)
+            </div></div>)
         }
     }
 

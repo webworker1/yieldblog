@@ -107,6 +107,11 @@ code {
   color: white;
 }
 
+.blurred {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
 .aws-btn {
   --button-default-height: 30px;
   --button-default-font-size: 10px;
