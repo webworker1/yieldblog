@@ -15,7 +15,7 @@ import StarMetals from '../articles/star_metals';
 import Subscription from '../articles/subscription';
 import LBrands from '../articles/l_brands';
 import China_2 from '../articles/china_2';
-
+import Cyberpunk from '../articles/cyberpunk';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -41,6 +41,16 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
+                <Card title="Cyberpunk 2077 Hype Train:  Is CD Projekt Red Overvalued?"
+                    bodyText="If this gentleman were entirely gold, it would be roughly what the market expects out of CD Projekt Red"
+                    imageLink="https://i.imgur.com/IaPSo6i.gif"
+                    cardId="cyberpunk"
+                    showAll={true}
+                    realLink={true}
+                >
+                    <Cyberpunk />
+                </Card>
+
                 <Card title="China Part II: Resolving the Impossible Trinity"
                     bodyText="Sincere apologies to the NYTimes for stealing their image"
                     imageLink="https://static01.nyt.com/images/2008/12/21/weekinreview/ponzi-600x583.jpg"
