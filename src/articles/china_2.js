@@ -33,12 +33,12 @@ class China_2 extends React.Component {
                     <QuoteStub quotedText={"It was 2013, and there was mounting disbelief outside China that bad loans in the country’s banks could account for only about 1% of their total assets, as was claimed by the official data. Given the pace of lending and the scale of dubious construction projects around the country, that number seemed preposterously low. Are we really expected to believe the numbers? I asked. “If China were to declare that nonperforming loans were in fact much higher than thought, does anyone really benefit?” he said."} />
                     <a target="_blank" href="https://www.amazon.com/gp/product/B073XCM3L1/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B073XCM3L1&linkCode=as2&tag=theyieldblog-20&linkId=7a12b3c8ef3d51bb92ce0c5a588f1b08">China's Great Wall of Debt: Shadow Banks, Ghost Cities, Massive Loans, and the End of the Chinese Miracle</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=theyieldblog-20&l=am2&o=1&a=B073XCM3L1" width="1" height="1" border="0" alt="" />
                     <br/>
-                    <Paywall
+                    {/* <Paywall
                         text="I'm very proud of the rest of this article and I hope you read it. You will at the very least get some dinner party ammunition, and I found the conclusions on China pretty eye-opening. Join our Patreon for instant access." blurred={
                         <div>Of course, we have to compare this to a known economy:
                         The US economy grows at roughly 2%, while total credit grew by roughly 5.3%.  So, for a reasonably well-functioning economy (please, Bernie bros, no hatemail), we have credit expansion that is about 2.5x the size of growth.  China, on the other hand, sees credit expansion roughly 6.5x the size of growth.
                         </div>}
-                    >
+                    > */}
                     All of these numbers seem to align extremely well:  US debt/GDP is rougly 100%, while China's debt/gdp is roughly 250-350% depending on what you count.  <Link href="/china_real_estate">Chinese real estate</Link> is also roughly 2-3x overvalued, and credit expansion in China is roughly 2-3x faster than in the US.
 
                     <Image widthOverride="500px" src="https://i.imgur.com/FjFmvgp.gif" />
@@ -77,7 +77,7 @@ class China_2 extends React.Component {
                     Yet you can barely transfer enough funds abroad for a decent ultra-luxury vacation. Buying a Parisian apartment or New York pied-a-terre would be seen as money-laundering, and likely lead to your imprisonment.  You look longingly northward to your Russian oligarch colleagues with envy, and the only thing you think about, day and night, is "how the fuck do I get my money out of here?"
                     <br/><br/>
                     The crux of China's control of their economy, then, is the size of their foreign currency reserves, and the cost of maintaining those reserves is the daily lived experience of its citizens being unable to purchase or invest abroad.  As foreign companies successfully expatriate RMB profits to USD, foreign currency reserves should deplete over time.  Watch China's forex reserves carefully -- once depleted the RMB will be forced into a devaluation spiral, and the world will taste the tears of Chinese billionaires.
-                    </Paywall>
+                    {/* </Paywall> */}
         </div>)
     }
 }

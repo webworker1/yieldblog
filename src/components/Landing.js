@@ -16,6 +16,8 @@ import Subscription from '../articles/subscription';
 import LBrands from '../articles/l_brands';
 import China_2 from '../articles/china_2';
 import Cyberpunk from '../articles/cyberpunk';
+import Stonks from '../articles/stonks';
+
 
 class Landing extends React.Component {
     constructor(props) {
@@ -41,6 +43,16 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
+                <Card title="How to be a shitty investor"
+                    bodyText=""
+                    imageLink="https://melmagazine.com/wp-content/uploads/2019/07/Stonks_Meme-1280x533.jpg"
+                    cardId="stonks"
+                    showAll={true}
+                    realLink={true}
+                >
+                    <Stonks />
+                </Card>
+
                 <Card title="Cyberpunk 2077 Hype Train:  Is CD Projekt Red Overvalued?"
                     bodyText="If this gentleman were entirely gold, it would be roughly what the market expects out of CD Projekt Red"
                     imageLink="https://i.imgur.com/IaPSo6i.gif"
