@@ -10,7 +10,12 @@ import Transdigm from './articles/transdigm';
 import Cushman from './articles/cushman';
 import LBrands from './articles/l_brands';
 import Monopoly from './articles/monopoly_essay';
+import Stonks from './articles/stonks';
+import Cyberpunk from './articles/cyberpunk';
+import Airlines from './articles/airlines';
 import China_2 from './articles/china_2';
+
+
 import Landing from './components/Landing';
 import FourOhFour from './articles/fourohfour';
 import PageWrapper from './components/PageWapper';
@@ -90,6 +95,21 @@ function App() {
           <Route path="/china_2">
             <PageWrapper title="China Part II: The Impossible Trinity">
               <China_2 />
+            </PageWrapper>
+          </Route>
+          <Route path="/cyberpunk">
+          <PageWrapper title="Is CDProjekt Red Overvalued?">
+              <Cyberpunk />
+            </PageWrapper>
+          </Route>
+          <Route path="/stonks">
+          <PageWrapper title="How to be a shitty investor">
+              <Stonks />
+            </PageWrapper>
+          </Route>
+          <Route path="/airlines">
+            <PageWrapper title="Are US Airlines profitable over the long term?">
+              <Airlines />
             </PageWrapper>
           </Route>
           <Route>

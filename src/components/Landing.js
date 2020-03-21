@@ -17,6 +17,7 @@ import LBrands from '../articles/l_brands';
 import China_2 from '../articles/china_2';
 import Cyberpunk from '../articles/cyberpunk';
 import Stonks from '../articles/stonks';
+import Airlines from '../articles/airlines';
 
 
 class Landing extends React.Component {
@@ -43,6 +44,15 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
+                {/* <Card title="Are US airlines profitable over the long term?"
+                    bodyText="When profitability comes almost exclusively from price collusion"
+                    imageLink="https://venicedelacruz.files.wordpress.com/2016/06/050914_1300_thenexttime1.gif?w=350"
+                    cardId="airlines"
+                    showAll={true}
+                    realLink={true}
+                >
+                    <Airlines />
+                </Card> */}
                 <Card title="How to be a shitty investor"
                     bodyText=""
                     imageLink="https://melmagazine.com/wp-content/uploads/2019/07/Stonks_Meme-1280x533.jpg"
