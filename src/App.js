@@ -108,7 +108,7 @@ function App() {
             </PageWrapper>
           </Route>
           <Route path="/airlines">
-            <PageWrapper title="Are US Airlines profitable over the long term?">
+            <PageWrapper title="Why did Buffett overpay for Delta, and are the airlines going bankrupt?">
               <Airlines />
             </PageWrapper>
           </Route>

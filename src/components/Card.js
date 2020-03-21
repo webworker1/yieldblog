@@ -12,7 +12,7 @@ class Card extends React.Component {
             return (
             <div className="card-wrapper-border-transparent">
                     <div className="card-wrapper">
-                        <header id={this.props.cardId} className="card-title">{this.props.title}</header>
+                        <header id={this.props.cardId} className="card-title"><b>{this.props.title}</b></header>
                         <hr className="card-divider" />
                         <img style={{width: "450px"}} src={this.props.imageLink}></img>
                         <div>{this.props.bodyText}</div>

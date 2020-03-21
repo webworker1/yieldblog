@@ -44,7 +44,7 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
-                {/* <Card title="Are US airlines profitable over the long term?"
+                <Card title="Why did Buffett overpay for Delta, and are the airlines going bankrupt?"
                     bodyText="When profitability comes almost exclusively from price collusion"
                     imageLink="https://venicedelacruz.files.wordpress.com/2016/06/050914_1300_thenexttime1.gif?w=350"
                     cardId="airlines"
@@ -52,7 +52,7 @@ class Landing extends React.Component {
                     realLink={true}
                 >
                     <Airlines />
-                </Card> */}
+                </Card>
                 <Card title="How to be a shitty investor"
                     bodyText=""
                     imageLink="https://melmagazine.com/wp-content/uploads/2019/07/Stonks_Meme-1280x533.jpg"
