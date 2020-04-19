@@ -9,16 +9,14 @@ import Transdigm from '../articles/transdigm';
 import Aramco_1 from '../articles/aramco_1';
 import About from '../articles/about';
 import Disclaimer from '../articles/disclaimer';
-import CourseraCoding from '../articles/coursera_coding';
 import ChinaRealEstate from '../articles/china_real_estate';
 import StarMetals from '../articles/star_metals';
-import Subscription from '../articles/subscription';
 import LBrands from '../articles/l_brands';
 import China_2 from '../articles/china_2';
 import Cyberpunk from '../articles/cyberpunk';
 import Stonks from '../articles/stonks';
 import Airlines from '../articles/airlines';
-
+import JPow from '../articles/jpow';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -44,6 +42,15 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
+                <Card title="JPow go BRRRRR: First-Hand Look at QE4"
+                    bodyText="Fed error in your favor: collect $1 billion."
+                    imageLink="https://kkingdavid.files.wordpress.com/2017/09/bank-error-in-your-favor.png"
+                    cardId="jpow"
+                    showAll={true}
+                    realLink={true}
+                >
+                    <JPow />
+                </Card>
                 <Card title="Why did Buffett overpay for Delta, and are the airlines going bankrupt?"
                     bodyText="When profitability comes almost exclusively from price collusion"
                     imageLink="https://venicedelacruz.files.wordpress.com/2016/06/050914_1300_thenexttime1.gif?w=350"
@@ -67,7 +74,7 @@ class Landing extends React.Component {
                     bodyText="If this gentleman were entirely gold, it would be roughly what the market expects out of CD Projekt Red"
                     imageLink="https://i.imgur.com/IaPSo6i.gif"
                     cardId="cyberpunk"
-                    showAll={true}
+                    showAll={false}
                     realLink={true}
                 >
                     <Cyberpunk />
@@ -119,7 +126,7 @@ class Landing extends React.Component {
                 </Card>
                 <Card title="Saudi Aramco: Vanity IPO of the 100-Year Kingdom"
                       bodyText="The Perilous Kingdom of Saud opens its books"
-                      imageLink="https://www.offshoreenergytoday.com/wp-content/uploads/2019/11/manifa-oil-field-source-saudi-aramco.jpg"
+                        imageLink="https://static01.nyt.com/images/2019/12/05/business/05aramcoIPO/05aramcoIPO-superJumbo.jpg"
                       cardId="aramco"
                       realLink={true}
                 >
