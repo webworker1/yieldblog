@@ -42,6 +42,16 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
+                <Card title="What happens when interest rates are negative?"
+                    bodyText="The Principle of Infinite Accumulation."
+                    imageLink=""
+                    cardId="jpow"
+                    showAll={true}
+                    realLink={true}
+                >
+                    <JPow />
+                </Card>
+
                 <Card title="JPow go BRRRRR: First-Hand Look at QE4"
                     bodyText="Fed error in your favor: collect $1 billion."
                     imageLink="https://kkingdavid.files.wordpress.com/2017/09/bank-error-in-your-favor.png"
