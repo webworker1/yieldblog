@@ -17,6 +17,7 @@ import Cyberpunk from '../articles/cyberpunk';
 import Stonks from '../articles/stonks';
 import Airlines from '../articles/airlines';
 import JPow from '../articles/jpow';
+import InterestRates from '../articles/interest_rates';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -42,15 +43,15 @@ class Landing extends React.Component {
         return (<div style={{zoom: this.state.zoom}} className="landing-wrapper">
             <div className="feed-wrapper">
                 <Header />
-                <Card title="What happens when interest rates are negative?"
-                    bodyText="The Principle of Infinite Accumulation."
-                    imageLink=""
-                    cardId="jpow"
+                {/* <Card title="Interest rates and the rise of Neofeudalism"
+                    bodyText=""
+                    imageLink="https://upload.wikimedia.org/wikipedia/commons/6/62/S._V._Ivanov._Yuri%27s_Day._%281908%29.jpg"
+                    cardId="interest_rates"
                     showAll={true}
                     realLink={true}
                 >
-                    <JPow />
-                </Card>
+                    <InterestRates />
+                </Card> */}
 
                 <Card title="JPow go BRRRRR: First-Hand Look at QE4"
                     bodyText="Fed error in your favor: collect $1 billion."

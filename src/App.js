@@ -14,7 +14,8 @@ import Stonks from './articles/stonks';
 import Cyberpunk from './articles/cyberpunk';
 import Airlines from './articles/airlines';
 import China_2 from './articles/china_2';
-
+import JPow from './articles/jpow';
+import InterestRates from './articles/interest_rates';
 
 import Landing from './components/Landing';
 import FourOhFour from './articles/fourohfour';
@@ -112,6 +113,17 @@ function App() {
               <Airlines />
             </PageWrapper>
           </Route>
+          <Route path="/jpow">
+            <PageWrapper title="JPow Go Brrrrr">
+              <JPow />
+            </PageWrapper>
+          </Route>
+          <Route path="/interest_rates">
+            <PageWrapper title="Interest Rates and the Rise of Neofeudalism">
+              <InterestRates />
+            </PageWrapper>
+          </Route>
+
           <Route>
             <PageWrapper>
               <FourOhFour />

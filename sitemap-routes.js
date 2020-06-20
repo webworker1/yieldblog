@@ -11,5 +11,9 @@ export default (
         <Route path="/star_metals" />
         <Route path="/charleston" />
         <Route path="/cushman" />
+        <Route path="/interest_rates" />
+        <Route path="/airlines" />
+        <Route path="/stonks" />
+        <Route path="/jpow" />
     </Route>
 );
